@@ -1,7 +1,7 @@
 andrewrothstein.java-openjdk-jre
 =========
 
-OpenJDK's JRE
+OpenJDK's JRE. Defaults to Java 8.
 
 Requirements
 ------------
@@ -21,9 +21,11 @@ See [meta/main.yml](meta/main.yml)
 Example Playbook
 ----------------
 
-    - hosts: servers
-      roles:
-         - andrewrothstein.java-openjdk-jre
+```yml
+- hosts: servers
+  roles:
+    - andrewrothstein.java-openjdk-jre
+```
 
 License
 -------
